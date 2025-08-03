@@ -1,38 +1,53 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
   margin: 0;
   padding: 0;
+  color: #333;
   text-align: center;
 }
 
 header {
   background-color: #007bff;
   color: white;
-  padding: 20px 0;
+  padding: 30px 10px;
 }
 
 .about, .quote {
-  margin: 20px;
+  margin: 30px auto;
+  max-width: 600px;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 blockquote {
   font-style: italic;
   color: #555;
+  margin-bottom: 15px;
 }
 
 button {
   padding: 10px 20px;
   background-color: #28a745;
   color: white;
+  font-size: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 button:hover {
   background-color: #218838;
+}
+
+footer {
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
